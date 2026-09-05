@@ -1,0 +1,22 @@
+# Python / Flask backend
+backend/.venv/
+__pycache__/
+*.pyc
+backend/lcd.db
+backend/uploads/
+backend/lcd-backend.log
+backend/lcd-backend.err
+
+# Node / Vite frontend
+frontend/node_modules/
+frontend/dist/
+frontend/lcd-vite.log
+frontend/lcd-vite.err
+
+# Env files (secrets)
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
